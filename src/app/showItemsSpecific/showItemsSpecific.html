@@ -1,0 +1,5 @@
+<div style="text-align: center">Please select items to add to cart</div>
+<br>
+    <div *ngFor="let item of itemsListSpecific;let i=index">
+        <input type="checkbox" [checked]="item.checkboxVal" (change)="handleChange(i)">
+        <div style="display: inline-block;width:40%">{{item.name}}</div> <div style="display: inline-block;width:30%">{{item.price}}</div></div>

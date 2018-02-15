@@ -1,0 +1,27 @@
+.mart {
+    position: absolute;
+    top: 30px;
+    left:0px;
+    width: 400px;
+    height: 500px;
+    border: 1px black solid;
+    font-style: italic;
+}
+.mart2 {
+    position: absolute;
+    top: 30px;
+    left:400px;
+    width: 400px;
+    height: 500px;
+    border: 1px black solid;
+    font-style: italic;
+}
+.mart3 {
+    position: absolute;
+    top: 30px;
+    left:800px;
+    width: 400px;
+    height: 500px;
+    border: 1px black solid;
+    font-style: italic;
+}
